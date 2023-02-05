@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import { connect } from "react-redux";
-import Pagination from "../users/Pagination";
-import User from "../users/User";
-import { goNextPage, goPrevPage } from "../users/user.actions";
+import Pagination from "./Pagination";
+import User from "./User";
+import { goNextPage, goPrevPage } from "./user.actions";
 import {
   usersListSelector,
   currentPageSelector,
