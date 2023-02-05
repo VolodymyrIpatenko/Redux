@@ -7,7 +7,7 @@ import { goNextPage, goPrevPage } from "./user.actions";
 import {
   usersListSelector,
   currentPageSelector,
-} from "../users/users.selector";
+} from "./user.selectors";
 
 const itemsPerPage = 3;
 
